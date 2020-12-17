@@ -39,8 +39,8 @@ SRCNN_BASIC(
 
 Evaluation:
 [ x2]	PSNR: 34.736 (Best: 34.736 @epoch 1)
-Forward: 2.32s
+Forward: 2.48s
 
 Saving...
-Total: 2.62s
+Total: 3.49s
 

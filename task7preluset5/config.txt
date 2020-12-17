@@ -1,4 +1,4 @@
-2020-12-17-03:49:52
+2020-12-17-15:30:04
 
 debug: False
 template: .
@@ -55,11 +55,11 @@ weight_decay: 0
 gclip: 0
 loss: 1*L1
 skip_threshold: 100000000.0
-save: task7preluset5--save_gt
+save: task7preluset5
 load: 
 resume: 0
 save_models: False
 print_every: 100
 save_results: True
-save_gt: False
+save_gt: True
 
