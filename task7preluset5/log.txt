@@ -5,27 +5,27 @@ SRCNN_BASIC(
   (body): Sequential(
     (0): BasicBlock(
       (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
-      (1): LeakyReLU(negative_slope=0.1)
+      (1): PReLU(num_parameters=64)
     )
     (1): BasicBlock(
       (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
-      (1): LeakyReLU(negative_slope=0.1)
+      (1): PReLU(num_parameters=64)
     )
     (2): BasicBlock(
       (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
-      (1): LeakyReLU(negative_slope=0.1)
+      (1): PReLU(num_parameters=64)
     )
     (3): BasicBlock(
       (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
-      (1): LeakyReLU(negative_slope=0.1)
+      (1): PReLU(num_parameters=64)
     )
     (4): BasicBlock(
       (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
-      (1): LeakyReLU(negative_slope=0.1)
+      (1): PReLU(num_parameters=64)
     )
     (5): BasicBlock(
       (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
-      (1): LeakyReLU(negative_slope=0.1)
+      (1): PReLU(num_parameters=64)
     )
   )
   (tail): Sequential(
@@ -38,9 +38,9 @@ SRCNN_BASIC(
 )
 
 Evaluation:
-[ x2]	PSNR: 34.736 (Best: 34.736 @epoch 1)
-Forward: 2.48s
+[ x2]	PSNR: 37.650 (Best: 37.650 @epoch 1)
+Forward: 3.41s
 
 Saving...
-Total: 3.49s
+Total: 4.41s
 
